@@ -1,4 +1,7 @@
 #! /bin/bash
+# This should work also on Solaris
+# https://unix.stackexchange.com/questions/57626/solaris-display-file-time-stamp-yearmonthday
+
 myfile=$1
 
 function print_cdata {
